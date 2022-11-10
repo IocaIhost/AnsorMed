@@ -4,9 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://www.dafontfree.net/embed/b3Blbi1zYW5zLWNvbmRlbnNlZC1ib2xkJmRhdGEvMTkvby85MjI2Ny9PcGVuU2Fucy1Db25kQm9sZC50dGY" rel="stylesheet" type="text/css"/>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
     <title>AnsorMed</title>
 </head>
 <body>
-    
+    <header class="header__section">
+            <div class="site__header__container">
+                <img src="img/logo.svg" alt="Ansor logo">
+                <nav class="sitenav">
+                    <ul>
+                        <li>Xizmatlar</li>
+                        <li>Dorilar</li>
+                        <li>Asal</li>
+                        <li>Kontaktlar</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+                <a href="#">Qabulga yozilish</a>
+            </div>
+    </header>
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero__content">
+                <h2 class="hero__heading">
+                    Tabiiy davolash usullari yordamida kasalliklardan xalos bo’ling.
+                </h2>
+                <div class="hero__text">Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko’p uchraydigan kasalliklarni yengishda yordam beradi. Sog’ligingizni o’z ishining professionallariga ishonib topshiring.
+                </div>
+                <a href="#">Qabulga yozilish</a>
+            </div>
+            <img src="./img/doctor.png" alt="Doctor image" srcset="./img/doctor.png 1x, ./img/doctor@2x.png 2x">
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services">
+            <div class="services__bg">
+                <h2 class="services__heading">Xizmatlar</h2>
+                <ul class="services__lists">
+                    <li class="services__item">
+                        <img src="./img/hijoma.jpg" alt="hijoma image" srcset="/img/hijoma.jpg 1x, /img/hijoma@2x.jpg 2x">
+                        <div class="services__wrapper">
+                            <h2 class="services__title">Hijoma</h2>
+                            <p class="services__text">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <img src="./img/terapiya.jpg" alt="hijoma image" srcset="img/terapiya.jpg 1x, img/terapiya@2x.jpg 2x">
+                        <div class="services__wrapper">
+                            <h2 class="services__title">Hijoma</h2>
+                            <p class="services__text">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <img src="./img/zulk.jpg" alt="hijoma image" srcset="img/zulk.jpg 1x, img/zulk@2x.jpg 2x">
+                        <div class="services__wrapper">
+                            <h2 class="services__title">Hijoma</h2>
+                            <p class="services__text">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <img src="./img/asal.jpg" alt="hijoma image" srcset="img/asal.jpg 1x, img/asal@2x.jpg 2x">
+                        <div class="services__wrapper">
+                            <h2 class="services__title">Hijoma</h2>
+                            <p class="services__text">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
+                        </div>
+                    </li>
+                </ul>
+                <a href="#">Qabulga yozilish</a>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta">
+            <div class="cta__rectangle">
+                <h2 class="cta__heading">Qabulga ro’yxatdan o’ting</h2>
+                <a href="#" class="calling">Qo’ng’iroq qilish</a>
+                <a href="#" class="write__from__tg">Telegramdan yozish</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer__section">
+            <div>
+                <div class="footer__container">
+                    <a href="#">
+                        <img src="img/logo.svg" alt="Ansor logo">
+                    </a>
+                    <nav class="footer__nav">
+                        <ul class="footer__lists">
+                            <li class="footer__item">Xizmatlar</li>
+                            <li class="footer__item">Dorilar</li>
+                            <li class="footer__item">Asal</li>
+                            <li class="footer__item">Kontaktlar</li>
+                            <li class="footer__item">Blog</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    </footer>
 </body>
 </html>
